@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap");
+    import("@popperjs/core");
   }, []);
   
   return (
