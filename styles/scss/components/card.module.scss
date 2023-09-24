@@ -1,0 +1,6 @@
+.card{
+    min-height: 260px;
+    &-title, &-text{
+        text-transform: capitalize;
+    }
+}
